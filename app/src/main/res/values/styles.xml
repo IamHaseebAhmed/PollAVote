@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#800080</item>
+        <item name="colorPrimaryDark">#800080</item>
+        <item name="colorAccent">#C1800080</item>
+    </style>
+
+    <!-- Application Splash Screen theme. -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#800080</item>
+    </style>
+
+    <!-- Admin Dashboard theme. -->
+    <style name="AdminDTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#1B9121</item>
+        <item name="colorPrimaryDark">#1B9121</item>
+        <item name="colorAccent">#1B9121</item>
+    </style>
+
+    <!-- Employee Dashboard theme. -->
+    <style name="EmployeeDTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#1B68AC</item>
+        <item name="colorPrimaryDark">#1B68AC</item>
+        <item name="colorAccent">#1B68AC</item>
+    </style>
+
+    <!-- Application Register Screen theme. -->
+<!--    <style name="RegisterTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+<!--        <item name="colorPrimaryDark">#F54810</item>-->
+<!--        <item name="colorAccent">#D3F54810</item>-->
+<!--    </style>-->
+
+</resources>

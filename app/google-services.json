@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "233341081887",
+    "firebase_url": "https://pollavote.firebaseio.com",
+    "project_id": "pollavote",
+    "storage_bucket": "pollavote.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233341081887:android:da58094601d72420a5f82a",
+        "android_client_info": {
+          "package_name": "com.haseebahmedsaeed.pollavote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233341081887-3dk79jff72tmvf43i8m8ftv43f5ejhhh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.haseebahmedsaeed.pollavote",
+            "certificate_hash": "ead9e9a1c627a56e4bcbc415ed24ab3b666b7692"
+          }
+        },
+        {
+          "client_id": "233341081887-k2q4u911th30g3qloao910tuf7ug9bll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxV6kCDzwFejNhrQlzh_ueVDOZg_zj2dc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233341081887-k2q4u911th30g3qloao910tuf7ug9bll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

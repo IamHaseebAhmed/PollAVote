@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#6DE6E6E6"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="1dp"
+        android:layout_margin="1dp"
+        android:clickable="true"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:clickable="true">
+
+                <TextView
+                    android:id="@+id/NumberofPoll"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="1."
+                    android:background="@drawable/greengradient"
+                    android:paddingTop="1dp"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:paddingLeft="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="40dp"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:text="TextView"
+                        android:textColor="@color/cardview_dark_background"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvSurname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="TextView"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Option1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:fontFamily="@font/fredoka_one"
+                        android:text="OPTION 1"
+                        android:textColor="#443F3F"
+                        android:textSize="10sp">
+
+                    </TextView>
+
+                    <ProgressBar
+                        android:id="@+id/progbar1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal">
+                    </ProgressBar>
+
+                    <TextView
+                        android:id="@+id/percent1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="40dp"
+                        android:textColor="#1B9121"
+                        android:textSize="12sp">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Option2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:fontFamily="@font/fredoka_one"
+                        android:text="OPTION 2"
+                        android:textColor="#443F3F"
+                        android:textSize="10sp">
+
+                    </TextView>
+
+                    <ProgressBar
+                        android:id="@+id/progbar2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal">
+                    </ProgressBar>
+
+                    <TextView
+                        android:id="@+id/percent2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#1B9121"
+                        android:layout_marginRight="40dp"
+                        android:textSize="12sp">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Option3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:fontFamily="@font/fredoka_one"
+                        android:text="OPTION 3"
+                        android:textColor="#443F3F"
+                        android:textSize="10sp">
+
+                    </TextView>
+
+                    <ProgressBar
+                        android:id="@+id/progbar3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal">
+                    </ProgressBar>
+
+                    <TextView
+                        android:id="@+id/percent3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#1B9121"
+                        android:layout_marginRight="40dp"
+                        android:textSize="12sp">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Option4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:fontFamily="@font/fredoka_one"
+                        android:text="OPTION 4"
+                        android:textColor="#443F3F"
+                        android:textSize="10sp">
+
+                    </TextView>
+
+                    <ProgressBar
+                        android:id="@+id/progbar4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal">
+                    </ProgressBar>
+
+                    <TextView
+                        android:id="@+id/percent4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#1B9121"
+                        android:layout_marginRight="40dp"
+                        android:textSize="12sp">
+                    </TextView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/sharePollButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:background="@drawable/deleteripplebutton"
+                    android:drawableLeft="@drawable/ic_share"
+                    android:padding="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text=" SHARE"
+                    android:textColor="#FFF"
+                    android:textSize="12sp"></Button>
+
+                <Button
+                    android:id="@+id/deletePollButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:background="@drawable/deleteripplebutton"
+                    android:drawableLeft="@drawable/ic_delete"
+                    android:padding="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text=" Delete"
+                    android:textColor="#FFF"
+                    android:textSize="12sp"></Button>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

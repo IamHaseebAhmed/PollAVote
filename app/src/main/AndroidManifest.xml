@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.haseebahmedsaeed.pollavote">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mlogo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Employee.OpenPolls"></activity>
+        <activity
+            android:name=".ShareReport.ShareReports"
+            android:theme="@style/AdminDTheme"></activity>
+        <activity
+            android:name=".reportGenerate"
+            android:theme="@style/AdminDTheme" />
+        <activity
+            android:name=".editPolls"
+            android:theme="@style/AdminDTheme" />
+        <activity
+            android:name=".ListOfVoters"
+            android:theme="@style/AdminDTheme" />
+        <activity
+            android:name=".createPolls"
+            android:theme="@style/AdminDTheme" />
+        <activity
+            android:name=".Employee.EDashboard"
+            android:theme="@style/EmployeeDTheme" />
+        <activity
+            android:name=".Adashboard"
+            android:label="@string/dashboard"
+            android:theme="@style/AdminDTheme" />
+        <activity
+            android:name=".Asignup"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".signup"
+            android:theme="@style/SplashTheme" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
